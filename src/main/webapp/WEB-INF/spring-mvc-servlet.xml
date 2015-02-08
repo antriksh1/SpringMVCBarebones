@@ -17,6 +17,8 @@
 	<mvc:annotation-driven />
 	<mvc:default-servlet-handler />
 
+	<bean class="com.as.barebones.springmvc.web.HomeController" />
+	
 	<bean class="com.as.barebones.springmvc.web.EmployeeController" />
 
 	<!-- ========================================== -->
